@@ -1,7 +1,10 @@
 import "./index.css";
+import Home from "./pages/Home";
 function App() {
   return (
-    <div className="text-center text-3xl font-medium py-10">Hello World</div>
+    <>
+      <Home />
+    </>
   );
 }
 
