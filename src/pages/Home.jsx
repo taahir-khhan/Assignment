@@ -29,7 +29,7 @@ const Home = () => {
         )}
         {show && (
           <div
-            className={`flex flex-col gap-4 w-full absolute left-0 top-[60px] bg-white pt-2 pb-10 px-5 overflow-hidden transition-opacity duration-500 ease-in-out border-t-2 z-10 ${
+            className={`flex flex-col gap-4 w-full absolute left-0 top-[60px] bg-white pt-2 pb-10 px-5 overflow-hidden transition-opacity duration-500 ease-in-out border-t-2 ${
               show
                 ? "opacity-100 translate-y-0"
                 : "opacity-0 -translate-y-[60px]"
