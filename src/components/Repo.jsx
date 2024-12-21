@@ -10,15 +10,15 @@ const Repo = ({ title, privacy, size, language, time }) => {
           {privacy}
         </span>
       </div>
-      <div className="flex gap-10 items-center text-[18px]">
+      <div className="flex items-start sm:flex-row gap-4 md:gap-10 sm:items-center text-sm sm:text-[18px]">
         <div className="flex items-center justify-center gap-2">
           <span>{language}</span>
-          <div className="h-[10px] w-[10px] rounded-full bg-blue-500 mb-[-4px]"></div>
+          <div className="h-[10px] w-[10px] rounded-full bg-blue-500 sm:mb-[-4px]"></div>
         </div>
-        <div className="flex items-center gap-1">
+        <div className="flex items-center gap-[2px]">
           <img src={assets.database} alt="" />
           <span>
-            {size} <span className="pl-[2px]">KB</span>
+            {size} <span className="pl-[1px]">KB</span>
           </span>
         </div>
         <p>Updated {time} days ago</p>

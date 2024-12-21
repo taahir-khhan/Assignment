@@ -3,8 +3,8 @@ import { assets } from "../assets/assets";
 import Repo from "./Repo";
 const Main = () => {
   return (
-    <div className="w-full md:w-0 md:flex-grow h-screen">
-      <div className="md:m-3  border-t-2 border-b-2 md:border border-gray-300 md:rounded-lg">
+    <div className="w-full md:ml-[310px]  flex-1 md:w-0 md:flex-grow  h-screen">
+      <div className="md:m-5   border-t-2 border-b-2 md:border border-gray-300 md:rounded-lg">
         <div className="flex flex-col gap-2 items-start md:items-center md:flex-row md:justify-between px-5 py-4">
           <div className="flex flex-col items-start gap-1">
             <h1 className="font-semibold text-3xl">Repositories</h1>
@@ -22,7 +22,7 @@ const Main = () => {
           </div>
         </div>
 
-        <div className="px-5 pb-4">
+        <div className="px-5 pb-4 border-b-2">
           <div className="flex items-center justify-between w-full md:w-2/6 mt-2 pl-3 border-2 border-gray-300 rounded-lg shadow-sm transition-all">
             <img src={assets.search} width={15} alt="page-logo" />
             <input

@@ -3,7 +3,7 @@ import { assets } from "../assets/assets";
 
 const SideBar = () => {
   return (
-    <div className="w-[300px] hidden md:flex h-screen bg-slate-100  flex-col items-center justify-between py-5 rounded border-r-2 border-gray-300 mt-0">
+    <div className="w-[300px] hidden fixed md:flex min-h-[100vh]  flex-col items-center justify-between py-5 rounded border-r-2 border-gray-300 mt-0">
       <div className="flex flex-col gap-4 w-[80%]">
         <div className="flex gap-3 items-center">
           <img src={assets.logo} width={40} alt="page-logo" />
